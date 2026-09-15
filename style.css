@@ -99,8 +99,8 @@ nav {
     color: var(--primary);
 }
 
-/* ===== HERO ===== */
-.hero {
+/* ===== Home ===== */
+.home {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -113,18 +113,18 @@ nav {
     padding: 0 20px;
 }
 
-.hero-content h1 {
+.home-content h1 {
     font-size: 3.5rem;
     margin-bottom: 15px;
     text-shadow: var(--glow);
     animation: fadeInDown 1s ease-out;
 }
 
-.hero-content h1 span {
+.home-content h1 span {
     color: var(--primary);
 }
 
-.hero-content p {
+.home-content p {
     font-size: 1.5rem;
     margin-bottom: 30px;
     opacity: 0.9;
@@ -157,7 +157,7 @@ nav {
     margin-left: 8px;
 }
 
-/* Floating icons in hero */
+/* Floating icons in home */
 .floating-icons {
     position: absolute;
     width: 100%;
@@ -192,15 +192,6 @@ nav {
     top: 80%;
     left: 20%;
     animation-delay: 10s;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0) rotate(0deg);
-    }
-    100% {
-        transform: translateY(-100px) rotate(360deg);
-    }
 }
 
 /* ===== ANIMATIONS ===== */
@@ -394,11 +385,11 @@ footer i {
         display: block;
     }
 
-    .hero-content h1 {
+    .home-content h1 {
         font-size: 2.5rem;
     }
 
-    .hero-content p {
+    .home-content p {
         font-size: 1.2rem;
     }
 
